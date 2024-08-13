@@ -10,6 +10,6 @@ class CConexion:
             print("Conexion realizada")
             return conexion
         except mysql.connector.Error as error:
-            print("Error al conectarse a la Base de Datos {}".format(error))
+            print("Error al conectarse a la Base de Datos original {}".format(error))
             return conexion
     ConexionBaseDeDatos()
